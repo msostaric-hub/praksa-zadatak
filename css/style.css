@@ -1,0 +1,40 @@
+.container {
+  display: grid;
+  grid-template: 1fr 1fr/ 1fr 1fr 1fr 1fr 1fr 150px;
+  border: 1px solid black;
+  grid-gap: 15px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.slika {
+  grid-row-start: 1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slika2 {
+  grid-row-start: 2;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.btns {
+  grid-row-start: 2;
+  grid-column-start: 5;
+  justify-self: end;
+}
+.btn {
+  width: 10px;
+  height: 20px;
+  border: 1px solid black;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.text {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
