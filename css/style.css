@@ -52,11 +52,12 @@
   grid-column-start: 4;
   justify-self: end;
 }
-.btn {
-  width: 10px;
-  height: 15px;
-  border: 1px solid black;
-  padding: 10px;
+.btnR,
+.btnL {
+  width: 7px;
+  height: 11px;
+  border: 1px solid #dddddd;
+  padding: 17px;
   border-radius: 5px;
 }
 
