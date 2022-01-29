@@ -47,6 +47,9 @@ $(document).ready(function () {
   $(".btnR").click(function () {
     $(".slider1").css({ transform: "translateX(150px)" });
   });
+  $(".btnL").click(function () {
+    $(".slider1").css({ transform: "translateX(-150px)" });
+  });
 });
 
 // var count = $(".content1").length; //length gives total length of elements
