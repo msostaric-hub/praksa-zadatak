@@ -46,9 +46,11 @@ $(document).ready(function () {
 
   $(".btnR").click(function () {
     $(".slider1").css({ transform: "translateX(150px)" });
+    $(".slider2").css({ transform: "translateX(150px)" });
   });
   $(".btnL").click(function () {
     $(".slider1").css({ transform: "translateX(-150px)" });
+    $(".slider2").css({ transform: "translateX(-150px)" });
   });
 });
 
