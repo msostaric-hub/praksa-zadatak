@@ -52,11 +52,17 @@ body {
 }
 .btnR,
 .btnL {
-  width: 7px;
-  height: 11px;
-  border: 1px solid #dddddd;
-  padding: 17px;
+  padding: 15px;
   border-radius: 5px;
+  cursor: pointer;
+  background-color: white;
+}
+
+.btnL :hover {
+  background: url("img/arrow-blue-left.png");
+}
+.btnR :hover {
+  background: url("img/arrow-blue-right.png");
 }
 .text {
   grid-column-start: 5;
