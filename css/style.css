@@ -50,20 +50,37 @@ body {
   grid-column-start: 4;
   justify-self: end;
 }
-.btnR,
-.btnL {
-  padding: 15px;
+.btnR {
+  background: white;
   border-radius: 5px;
   cursor: pointer;
-  background-color: white;
+  width: 50px;
+  height: 50px;
+  background-image: url("../img/arrow-gray-right.png");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.btnL :hover {
-  background: url("img/arrow-blue-left.png");
+.btnR:hover {
+  background-image: url("../img/arrow-blue-right.png");
 }
-.btnR :hover {
-  background: url("img/arrow-blue-right.png");
+.btnL {
+  background: white;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  background-image: url("../img/arrow-gray-left.png");
+  background-repeat: no-repeat;
+  background-position: center;
 }
+
+.btnL:hover {
+  background-image: url("../img/arrow-blue-left.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .text {
   grid-column-start: 5;
   grid-row-start: 2;
