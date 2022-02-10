@@ -16,14 +16,14 @@ $(document).ready(function () {
   // Gumb za pomicanje slika prema lijevo
   $(".btnL").click(function () {
     let currentImg = $(".active");
-    let nextImg = currentImg.next();
+    let prevImg = currentImg.prev();
     let imgSelector = document.querySelector(".active");
     let imgWidth = imgSelector.offsetWidth;
-    if (nextImg.length) {
+    if (prevImg.length) {
       currentImg.removeClass("active");
       $(".slider1").animate({ left: imgWidth });
       $(".slider2").animate({ left: imgWidth });
-      nextImg.addClass("active");
+      prevImg.addClass("active");
     }
   });
 });
