@@ -1,19 +1,18 @@
 {
   "name": "praksa-zadatak",
   "version": "1.0.0",
-  "description": "Zadatak za prijavu na praksu u Factory.",
+  "description": "Zadatak za prijavu na praksu",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel js/main.js -d transpiled"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/msostaric-hub/praksa-zadatak.git"
   },
   "keywords": [
-    "Praksa",
-    "Image",
-    "slider"
+    "Slider"
   ],
   "author": "Marko Šoštarić",
   "license": "ISC",
@@ -21,12 +20,9 @@
     "url": "https://github.com/msostaric-hub/praksa-zadatak/issues"
   },
   "homepage": "https://github.com/msostaric-hub/praksa-zadatak#readme",
-  "dependencies": {
-    "@babel/preset-env": "^7.16.11"
-  },
   "devDependencies": {
     "@babel/cli": "^7.17.0",
     "@babel/core": "^7.17.2",
-    "babel-preset-env": "^1.7.0"
+    "@babel/preset-env": "^7.16.11"
   }
 }
